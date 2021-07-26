@@ -45,10 +45,6 @@ header .user__div--profile {
     color: white;
 }
 
-header .user__div--profile:visited {
-    color: #576574;
-}
-
 header .header__user:hover ul, ul:hover {
     display: block;
 }
@@ -56,11 +52,20 @@ header .header__user:hover ul, ul:hover {
 header .header__nav--li {
     list-style: none;
     display: none;
+    padding-top: 15px;
     position: absolute;
     font-size: 15px;
     width: 100px;
     text-align: right;
     margin-left: -7px;
+}
+
+.header__nav--li .nav--li-session {
+    padding-bottom: 10px;
+}
+
+.header__nav--li .nav--li-account {
+    padding-bottom: 10px;
 }
 
 .header__nav--li li a {
@@ -70,10 +75,6 @@ header .header__nav--li {
 
 .header__nav--li li a:hover {
     text-decoration: underline;
-}
-
-.header__nav--li li a:visited {
-    color: #c8d6e5;
 }
 
 .header__line--span {
@@ -141,6 +142,7 @@ main .main__section2 .main__section2--img, main .main__section3 .main__section3-
     height: 250px;
     border-radius: 10px;
     margin: 5px;
+    cursor: pointer;
     position: relative;
     transition: 400ms all;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
@@ -303,6 +305,7 @@ main .main__section5 .main__section5--img {
     height: 250px;
     border-radius: 10px;
     margin: 5px;
+    cursor: pointer;
     position: relative;
     transition: 400ms all;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
@@ -358,7 +361,7 @@ main .main__section5 .main__section5--img img {
     cursor: pointer;
 }
 
-main .main__section6 {
+.footer__section {
     width: 100%;
     height: 120px;
     display: flex;
@@ -366,7 +369,7 @@ main .main__section6 {
     margin-top: 80px;
 }
 
-main .main__section6 .main__section6--terms a {
+.footer__section .footer__section--terms a {
     color: white;
     font-size: 16px;
     font-weight: 500;
@@ -374,7 +377,7 @@ main .main__section6 .main__section6--terms a {
     text-decoration: none;
 }
 
-main .main__section6 .main__section6--privacy a {
+.footer__section .footer__section--privacy a {
     color: white;
     font-size: 16px;
     font-weight: 500;
@@ -382,7 +385,7 @@ main .main__section6 .main__section6--privacy a {
     text-decoration: none;
 }
 
-main .main__section6 .main__sction6--help a {
+.footer__section .footer__section--help a {
     color: white;
     font-size: 16px;
     font-weight: 500;
@@ -390,6 +393,6 @@ main .main__section6 .main__sction6--help a {
     text-decoration: none;
 }
 
-main .main__section6 p a:hover {
+.footer__section p a:hover {
     text-decoration: underline;
 }
