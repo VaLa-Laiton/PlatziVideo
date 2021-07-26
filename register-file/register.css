@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background: linear-gradient(#341f97, #ee5253);
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header .header__logo--img img {
+    width: 200px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+header .header__user--div {
+    display: flex;
+    align-items: center;
+}
+
+header .user__div--icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+header .user__div--profile {
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 30px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+
+header .header__user:hover ul, ul:hover {
+    display: block;
+}
+
+header .header__nav--li {
+    list-style: none;
+    display: none;
+    padding-top: 15px;
+    position: absolute;
+    font-size: 15px;
+    width: 100px;
+    text-align: right;
+    margin-left: -7px;
+}
+
+.header__nav--li .nav--li-session {
+    padding-bottom: 10px;
+}
+
+.header__nav--li .nav--li-account {
+    padding-bottom: 10px;
+}
+
+.header__nav--li li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__nav--li li a:hover {
+    text-decoration: underline;
+}
+
+.header__line--span {
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 2px white solid;
+}
+
+main .register__container {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    border: 2px white solid;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .register__container .register__container--register {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    align-self: center;
+    margin-bottom: 60px;
+}
+
+main .register__container .register__container--form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .register__container .register__container--form .input {
+    width: 300px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    align-self: center;
+    background-color: #11111100;
+    border-radius: 20px;
+    outline: none;
+    border: 2px white solid;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8)
+}
+
+main .register__container .register__container--form .button {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    align-self: center;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px white solid;
+    background-color: #11111100;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8)
+}
+
+main .register__container .register__container--form .button:hover {
+    scale: 1.1;
+}
+
+main .register__container .register__container--log-in {
+    margin-top: 15px;
+}
+
+main .register__container .register__container--log-in a {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+main .register__container .register__container--log-in a:hover {
+    text-decoration: underline;
+}
+
+.footer__section {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.footer__section .footer__section--terms a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+.footer__section .footer__section--privacy a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.footer__section .footer__section--help a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.footer__section p a:hover {
+    text-decoration: underline;
+}

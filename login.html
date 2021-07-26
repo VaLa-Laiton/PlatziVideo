@@ -5,10 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="./login-file/login.css">
 </head>
 <body>
-    <h1>Iniciar Sesión</h1>
-    <input type="text">
-    <input type="button">
+    <header>
+        <div class="header__logo--img">
+            <a href=""><img src="./assets/img/logo-platzi.png" alt=""></a>
+        </div>
+        <div class="header__user">
+            <div class="header__user--div">
+                <img class="user__div--icon" src="./assets/icons/alien.svg" alt=""> 
+                <p class="user__div--profile">Perfil</p>
+            </div>       
+            <ul class="header__nav--li">
+                <li class="nav--li-session"><a href="login">Iniciar Sesión</a></li>
+                <!-- <li class="nav--li-account"><a href="">Cuenta</a></li> -->
+                <!-- <li class="nav--li-session"><a href="">Cerrar Sesión</a></li> -->
+            </ul>
+       </div>
+    </header>
+    <div class="header__line--span"></div>
+    <main>
+        <section class="login__container">
+            <p class="login__container--session">Inicia Sesión</p>
+            <form class="login__container--form">
+                <input class="input" name="email" type="text" placeholder="Correo">
+                <input class="input" name="password" type="text" placeholder="Contraseña">
+                <button class="button">Iniciar Sesión</button>
+                <div class="login__container--remember">
+                    <label for="">
+                        <input type="checkbox" value="firts_checkbox">Recuérdame
+                    </label>
+                    <a href="">Olvidé mi Contraseña</a>
+                </div>
+            </form>
+            <div class="login__container--google">
+                <img src="./login-file/assets/icons/google.svg" alt="">
+                Inicia sesión con Google                
+            </div>
+            <div class="login__container--twitter">
+                <img src="./login-file/assets/icons/twitter.svg" alt="">
+                Inicia sesión con Twitter
+            </div>
+            <div class="login__container--sign-in">
+                No tienes cuenta, <a href="register">Regístrate</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer__section">
+        <p class="footer__section--terms">
+            <a href="">Terminos de Uso</a>
+        </p>
+        <p class="footer__section--privacy">
+            <a href="">Declación de Privacidad</a>
+        </p>
+        <p class="footer__section--help">
+            <a href="">Centro de Ayuda</a>
+        </p>
+    </footer>
 </body>
 </html>

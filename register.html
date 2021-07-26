@@ -5,8 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
+    <link rel="stylesheet" href="register-file/register.css">
 </head>
 <body>
-    <h1>Registro</h1>
+    <header>
+        <div class="header__logo--img">
+            <a href=""><img src="./assets/img/logo-platzi.png" alt=""></a>
+        </div>
+        <div class="header__user">
+            <div class="header__user--div">
+                <img class="user__div--icon" src="./assets/icons/alien.svg" alt=""> 
+                <p class="user__div--profile">Perfil</p>
+            </div>       
+            <ul class="header__nav--li">
+                <li class="nav--li-session"><a href="login">Iniciar Sesión</a></li>
+                <!-- <li class="nav--li-account"><a href="">Cuenta</a></li> -->
+                <!-- <li class="nav--li-session"><a href="">Cerrar Sesión</a></li> -->
+            </ul>
+       </div>
+    </header>
+    <div class="header__line--span"></div>
+    <main>
+        <section class="register__container">
+            <p class="register__container--register">Regístrate</p>
+            <form action="" class="register__container--form">
+                <input class="input" type="text" placeholder="Nombre">
+                <input class="input" type="text" placeholder="Correo">
+                <input class="input" type="text" placeholder="Contraseña">
+                <button class="button">Registrarme</button>
+            </form>
+            <p class="register__container--log-in">
+                <a href="">Iniciar Sesión</a>
+            </p>
+        </section>
+    </main>
+    <footer class="footer__section">
+        <p class="footer__section--terms">
+            <a href="">Terminos de Uso</a>
+        </p>
+        <p class="footer__section--privacy">
+            <a href="">Declación de Privacidad</a>
+        </p>
+        <p class="footer__section--help">
+            <a href="">Centro de Ayuda</a>
+        </p>
+    </footer>
 </body>
 </html>

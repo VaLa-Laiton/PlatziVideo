@@ -6,7 +6,7 @@
 
 html {
     font-size: 62.5%;
-    background: linear-gradient(#341f97, #222f3e);
+    background: linear-gradient(#341f97, #ee5253);
     font-family: 'Mulish', sans-serif;
 }
 
@@ -246,7 +246,7 @@ main .main__section4 .main__section4--background .main__section4--promo img {
     color: white;
 }
 
-.main__section4 .main__section4--background .main__section4--text .section4--promo-botton {
+.main__section4 .main__section4--background .main__section4--text .section4--promo-button {
     font-size: 30px;
     font-weight: 500;
     color: white;
@@ -261,14 +261,14 @@ main .main__section4 .main__section4--background .main__section4--promo img {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
-.main__section4 .main__section4--background .main__section4--text .section4--promo-botton a {
+.main__section4 .main__section4--background .main__section4--text .section4--promo-button a {
     text-decoration: none;
     color: white;
     font-size: 30px;
     font-weight: 500;
 }
 
-.main__section4 .main__section4--background .main__section4--text .section4--promo-botton:hover {
+.main__section4 .main__section4--background .main__section4--text .section4--promo-button:hover {
     scale: 1.1;
 }
 
